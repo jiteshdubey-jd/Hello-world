@@ -1,0 +1,35 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.parallax {
+  height: 100vh;
+  background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.5rem;
+  max-width: 600px;
+  line-height: 1.5;
+}
